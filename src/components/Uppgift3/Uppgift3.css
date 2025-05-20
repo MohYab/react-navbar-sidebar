@@ -1,0 +1,51 @@
+.uppgift3-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 60px; /* Space for footer */
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.uppgift3-content {
+  background-color: #f5f5f5;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 1.5rem;
+}
+
+.uppgift3-content h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.uppgift3-content h2:first-child {
+  margin-top: 0;
+}
+
+.uppgift3-content p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.uppgift3-content ul {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.uppgift3-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .uppgift3-container {
+    padding: 1rem;
+  }
+
+  .uppgift3-content {
+    padding: 1rem;
+  }
+}

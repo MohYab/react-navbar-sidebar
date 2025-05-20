@@ -1,0 +1,35 @@
+.main-content {
+  padding: 2rem;
+  transition: margin-left 0.3s ease-in-out;
+  margin-left: 250px; /* Space for sidebar */
+}
+
+.main-content.sidebar-closed {
+  margin-left: 0;
+}
+
+.main-content h1 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.main-content p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 200px;
+    padding: 1.5rem;
+  }
+  
+  .main-content.sidebar-closed {
+    margin-left: 0;
+  }
+  
+  .main-content h1 {
+    font-size: 1.8rem;
+  }
+}

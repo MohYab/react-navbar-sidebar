@@ -1,0 +1,43 @@
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 900;
+  transition: left 0.3s ease-in-out, width 0.3s ease-in-out;
+}
+
+.footer.sidebar-open {
+  left: 0;
+  width: 100%;
+}
+
+.footer.sidebar-closed {
+  left: 0;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 0.8rem 0;
+  }
+
+  .footer p {
+    font-size: 0.8rem;
+  }
+}
